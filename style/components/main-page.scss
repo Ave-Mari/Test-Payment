@@ -1,0 +1,26 @@
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.main-page {
+    background: #E5E5E5;
+    margin: 0;
+    height: 100vh;
+}
+
+.form-wrapper {
+    width: 440px;
+    // width: 29.3%;
+    // min-width: 320px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 60px #E2E7FF;
+    border-radius: 0px 50px 50px 50px;
+    padding: 35px 35px 39px 35px;
+}
