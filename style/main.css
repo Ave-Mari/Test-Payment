@@ -34,6 +34,7 @@ body {
 
 .form-wrapper {
   width: 440px;
+  height: 535px;
   background: #FFFFFF;
   -webkit-box-shadow: 10px 10px 60px #E2E7FF;
           box-shadow: 10px 10px 60px #E2E7FF;
@@ -137,4 +138,95 @@ input.form__input:nth-child(8) {
 
 p.form__input-text:nth-child(10) {
   margin-top: 12px;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+  list-style: none;
+  padding: 11px 17px 11px 17px;
+  cursor: pointer;
+}
+li:hover {
+  background: #F4F5FA;
+}
+li:nth-child(5) {
+  padding-top: 21.5px;
+  padding-bottom: 21.5px;
+}
+
+.products__item {
+  border-bottom: 1.5px solid #E1E3EE;
+}
+.products__item:last-child {
+  border-bottom: none;
+}
+
+.products__block {
+  border-radius: 15px 15px 15px 15px;
+  border: 1.5px solid #E1E3EE;
+  overflow: hidden;
+  margin-bottom: 23px;
+}
+
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+label input {
+  margin-right: 14px;
+}
+label h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+label h4:last-child {
+  margin-bottom: 0;
+}
+label p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 13px;
+  color: #A7A2CB;
+}
+
+.products__button {
+  background: #23C967;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-bottom: 12px;
+  margin-bottom: 0px;
+}
+
+.point-delete a {
+  position: relative;
+}
+.point-delete a::after {
+  content: "";
+  position: absolute;
+  background: url("./../../images/delete.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 13px;
+  height: 13.5px;
+  top: 13%;
+  left: 33%;
 }
